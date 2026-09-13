@@ -12,6 +12,7 @@ import org.firstinspires.ftc.teamcode.Robot.Robot;
 public class MainTeleop extends LinearOpMode {
     @Override
     public void runOpMode() throws InterruptedException {
+        //test
         MyTelemetry.init(telemetry);
         Robot robot = new Robot(hardwareMap);
 
